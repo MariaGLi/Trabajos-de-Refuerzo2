@@ -23,9 +23,13 @@
     src: url(Myriad/Myriad\ Pro\ Bold.ttf);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .contenedor{
     width: 100vw;
-    height: 348vw;
+    height: 341vw;
     overflow: hidden;
 }
 
@@ -65,8 +69,8 @@
 .hi{
     font-size: 5vw;
     position: relative;
-    top: 50vw;
-    left: -5vw;
+    bottom: 40vw;
+    right: 1vw;
 }
 .ent{
     text-decoration: none;
@@ -92,56 +96,53 @@
 .caja2 img{
     width: 100vw;
     height: 53vw;
-    position: absolute;
+    position: relative;
     top: 9.9vw;
 }
 
 .cajita{  
     width: 33vw;
-    background-color: #ffffff;
-    position: absolute;
+    height: auto;
+    background-color: white;
+    position: relative;
+    bottom: 38.5vw;
     left: 5vw;
-    top: 15vw;
-    border-radius: 2vw;
-    font-family: mregular ;
+    border-radius: 1.8vw;
 }
 
+.bloquecito{
+    text-align: center;
+    font-family: mregular;
+}
 #text{
-    font-family: mregular;
-    font-size: 2.1vw;
-    position: absolute;
-    top: 1.5vw;
-    text-align: center;
-    left: 6.5vw;
+    padding: 1.2vw;
+    font-size: 2.2vw;
 }
-
 #text2{
-    font-family: mregular;
-    text-align: center;
-    font-size: 0.8vw;
-    position: absolute;
-    top: 9.5vw;
-    left: 4.5vw;
-    opacity: 0.85;
-}
-
-.bloquecito2{
-    margin-top: 12vw;
-    margin-left: 2.5vw
-}
-
-.bloquecito2 input{
-    width: 27vw;
-    height: 2vw;
+    font-size: 1vw;
+    position: relative;
+    bottom: 0.5vw;
+    opacity: 0.9;
 }
 
 .bloquecito2 label{
-    font-size: 1vw;
+    font-family: mregular;
+    font-size: 1.2vw;
+    padding-left: 2vw;
 }
-
-.bloquecito2 .cedula{
-    font-size: 0.9vw;
+.bloquecito2 input{
+    width: 28.5vw;
     height: 2vw;
+    margin-left: 2vw;
+}
+.bloquecito2 select{
+    width: 28.7vw;
+    height: 2vw;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+.fecha{
+    font-size: 1vw;
 }
 
 .consultar{
@@ -151,11 +152,12 @@
     background-color: #157ffb;
     width: 10vw;
     height: 2.3vw;
-    margin-top: 2vw ;
-    margin-left: 12vw;
-    margin-bottom: 2vw;
     border-radius: 0.9vw;
+    position: relative;
+    margin-top: 2.5vw;
+    margin-left: 12vw;
 }
+
 
 .ingreso{
     position: absolute;
@@ -194,12 +196,12 @@
 }
 .hi3{
     position: relative;
-    top: 35vw;
+    top: -80vw;
 }
 
 .caja3{
     position: relative;
-    top: 65vw;
+    bottom: 30vw;
     font-family: mlight;
 }
 
@@ -248,7 +250,7 @@
 
 .caja4{
     position: relative;
-    top: 45vw;
+    bottom: 60vw;
 }
 
 .etapa{
@@ -340,8 +342,7 @@
 }
 .hi2{
     position: relative;
-    top: 38vw;
-    left: -1vw;
+    top: -70vw;
 }
 
 .bloquecito9 img{
@@ -351,7 +352,7 @@
 
 .caja5{
     position: relative;
-    top: 55vw;
+    bottom: 50vw;
     text-align: center;
 }
 
@@ -554,7 +555,7 @@
     height: 17vw;
     background-color: #157ffb;
     position: relative;
-    top: 89vw;
+    bottom: 16vw;
     left: 5vw;
     text-align: center;
     border-radius: 4vw;
@@ -595,7 +596,7 @@
     font-size: 1.5vw;
     color: #ffffff;
     position: relative;
-    top: 97vw;
+    bottom: 13vw;
     display: flex;
     justify-content: space-evenly;
     text-align: center;

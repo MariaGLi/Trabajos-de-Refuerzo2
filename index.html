@@ -25,7 +25,11 @@
                 </div>
                 <div class="bloquecito2">
                     <label for="tipo">Tipo de Documento</label><br>
-                    <input class="cedula" type="" placeholder="Cédula de Ciudadania">
+                    <select id="cedula">
+                        <option value="ced">Cédula de Ciudadania</option>
+                        <option value="tar">Tarjeta de Identidad</option>
+                        <option value="cede">Cédula de Extranjería</option>
+                    </select>
                     <br>
                     <label for="numero">Número de Documento</label><br>
                     <input type="number">
@@ -37,7 +41,7 @@
                     <input type="text">
                     <br>
                     <label for="fecha">Fecha de Expedición del Documento</label><br>
-                    <input type="date">
+                    <input class="fecha" type="date">
                     <br>
                     <label for="telefono">Telefono Móvil</label><br>
                     <input type="number">
