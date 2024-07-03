@@ -21,7 +21,7 @@ La página web se enfoca en brindar información al usuario de ciertas maneras e
 
 # Estructura del proyecto
 
-Imagenes/Estructura del Proyecto en CMD.jpg
+![Estructura del Proyecto en CMD](https://github.com/MariaGLi/PROYECTO_TEST_HTML_LizarazoMar-a/assets/160262767/dc2791d1-b9cd-41c7-ad42-4e306f6e9e3e)
 
 Ahí aparece todo el código y lo demás utilizado para realizar la maquetación del ingreso solidrio.
 Iniciando, encontraras el archivo [index.html], [readme.md] y [style.css]; seguido de una carpeta Imagenes, en la que se encontraran todas las imagenes usadas en el código y por último, la carpeta Myriad, que contiene los tipos de letra usados en el código.
