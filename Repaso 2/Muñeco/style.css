@@ -1,0 +1,164 @@
+.contenedor img{
+    position: absolute;
+}
+
+#m1{
+    position: absolute;
+    animation-name: mñq1;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m2{
+    position: absolute;
+    animation-name: mñq2;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m3{
+    position: absolute;
+    animation-name: mñq3;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m4{
+    position: absolute;
+    animation-name: mñq4;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m5{
+    position: absolute;
+    animation-name: mñq5;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m6{
+    position: absolute;
+    animation-name: mñq6;
+    animation-duration: 10s;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m7{
+    position: absolute;
+    animation-name: mñq7;
+    animation-duration: 10s;
+    animation-delay: 0.7s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m8{
+    position: absolute;
+    animation-name: mñq8;
+    animation-duration: 10s;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m9{
+    position: absolute;
+    animation-name: mñq9;
+    animation-duration: 10s;
+    animation-delay: 0.9s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+#m10{
+    position: absolute;
+    animation-name: mñq10;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+@keyframes mñq1{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq2{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq3{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq4{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq5{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq6{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq7{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq8{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq9{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes mñq10{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
