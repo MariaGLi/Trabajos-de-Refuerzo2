@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-size:12vw;
+    background:#2c333a;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+p:nth-child(1n){
+    color: #77c6bc;
+}
+p:nth-child(2n){
+    color: #95b8cb;
+}
+
+p:nth-child(1){
+    animation: flipUp 1s both, flipDown .5s 2s forwards;
+}
+p:nth-child(2){
+    animation: flipUp 1s both, flipDown .6s 2s forwards;
+}
+p:nth-child(3){
+    animation: flipUp 1s both, flipDown .7s 2s forwards;
+}
+p:nth-child(4){
+    animation: flipUp 1s both, flipDown .8s 2s forwards;
+}
+p:nth-child(5){
+    animation: flipUp 1s both, flipDown .9s 2s forwards;
+}
+p:nth-child(6){
+    animation: flipUp 1s both, flipDown .9s 2s forwards;
+}
+p:nth-child(7){
+    animation: flipUp 1s both, flipDown .9s 2s forwards;
+}
+
+@keyframes flipUp{
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+@keyframes flipDown{
+    to{
+        transform: rotateX(-180deg);
+    }
+}
