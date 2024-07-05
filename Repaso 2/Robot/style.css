@@ -1,6 +1,58 @@
 body{
     background-color: #f9e4c9;
 }
-.robot{
-    width: 5vw;
+
+.contenedor{
+    background-color: white;
+    width: 50vw;
+    height: 35vw;
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 20vw;
+    animation-name: cuadrito;
+    animation-duration: 1.5s;
+}
+
+@keyframes cuadrito{
+    0%{
+        margin-top: 40vw;
+    }
+    92%{
+        margin-top: 5vw;
+    }
+    97%{
+        margin-top: 20vw;
+    }
+}
+h2{
+    color: #f091a0;
+    font-size: 3.2vw;
+    margin-top: -0.5vw;
+}
+p{
+    font-size: 1.8vw;
+}
+
+.robot img{
+    width: 12vw;
+    height: 12vw;
+    background-color: white;
+    position: relative;
+    bottom: 4vw;
+    border-radius: 15vw;
+    box-shadow:5px 5px 5px gray;
+}
+
+#make{
+    background-color: #009ab1;
+    width: 25vw;
+    height: 4vw;
+    margin-left: 12.5vw;
+    margin-top: 5vw;
+}
+#make:hover{
+    background-color: #f34e60;
+}
+#make p{
+    padding-top: 1vw;
 }

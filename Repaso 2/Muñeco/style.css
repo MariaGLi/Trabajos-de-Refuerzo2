@@ -1,7 +1,19 @@
+body{
+    overflow: hidden;
+}
 .contenedor img{
     position: absolute;
 }
-
+.contenedor{
+    margin-left: 100vw;
+    animation-name: muñeco;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+@keyframes muñeco{
+    100%{margin-left: -60vw;}
+}
 #m1{
     position: absolute;
     animation-name: mñq1;
@@ -37,7 +49,7 @@
 #m5{
     position: absolute;
     animation-name: mñq5;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 0.5s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -45,7 +57,7 @@
 #m6{
     position: absolute;
     animation-name: mñq6;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 0.6s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -53,7 +65,7 @@
 #m7{
     position: absolute;
     animation-name: mñq7;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 0.7s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -61,7 +73,7 @@
 #m8{
     position: absolute;
     animation-name: mñq8;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 0.8s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -69,7 +81,7 @@
 #m9{
     position: absolute;
     animation-name: mñq9;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 0.9s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -77,7 +89,7 @@
 #m10{
     position: absolute;
     animation-name: mñq10;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 1s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -86,79 +98,109 @@
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq2{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq3{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq4{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq5{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq6{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq7{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq8{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq9{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes mñq10{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
